@@ -1,0 +1,25 @@
+{
+  "name": "beercalc",
+  "version": "1.0.0",
+  "description": "beer calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niko2892/beercalc.git"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "author": "studygroup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niko2892/beercalc/issues"
+  },
+  "homepage": "https://github.com/niko2892/beercalc#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
