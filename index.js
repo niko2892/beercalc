@@ -15,7 +15,12 @@ const beers = [
     }
 ]
 
-app.get('/api/v1/beerslist', (req, res) => {
+app.get('/', (req, res) => {
+	res.json({"data":"empty"});
+	}
+);
+
+app.get('/api/v1/beers/list', (req, res) => {
     console.log('Вызвали /api/v1/beerslist , Возвращаю список марок пива');
     res.json(beers);
 })
