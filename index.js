@@ -15,8 +15,8 @@ const beers = [
     }
 ]
 
-app.get('/', (req, res) => {
-	res.json({"data":"empty"});
+app.get('/api/v1/greeting', (req, res) => {
+	res.json({"data":"Привет, мой юный почитатель пиваса!"});
 	}
 );
 
